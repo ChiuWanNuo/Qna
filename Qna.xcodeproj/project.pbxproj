@@ -13,6 +13,8 @@
 		57FAD51B238258FF00142A16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57FAD519238258FF00142A16 /* Main.storyboard */; };
 		57FAD51D2382590000142A16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57FAD51C2382590000142A16 /* Assets.xcassets */; };
 		57FAD5202382590000142A16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57FAD51E2382590000142A16 /* LaunchScreen.storyboard */; };
+		57FAD52823825B9E00142A16 /* QnaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FAD52723825B9E00142A16 /* QnaViewController.swift */; };
+		57FAD52A23825FE400142A16 /* Qna.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FAD52923825FE400142A16 /* Qna.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		57FAD51C2382590000142A16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		57FAD51F2382590000142A16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		57FAD5212382590000142A16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57FAD52723825B9E00142A16 /* QnaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QnaViewController.swift; sourceTree = "<group>"; };
+		57FAD52923825FE400142A16 /* Qna.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Qna.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				57FAD515238258FF00142A16 /* SceneDelegate.swift */,
 				57FAD517238258FF00142A16 /* ViewController.swift */,
 				57FAD519238258FF00142A16 /* Main.storyboard */,
+				57FAD52923825FE400142A16 /* Qna.swift */,
+				57FAD52723825B9E00142A16 /* QnaViewController.swift */,
 				57FAD51C2382590000142A16 /* Assets.xcassets */,
 				57FAD51E2382590000142A16 /* LaunchScreen.storyboard */,
 				57FAD5212382590000142A16 /* Info.plist */,
@@ -139,6 +145,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				57FAD518238258FF00142A16 /* ViewController.swift in Sources */,
+				57FAD52823825B9E00142A16 /* QnaViewController.swift in Sources */,
+				57FAD52A23825FE400142A16 /* Qna.swift in Sources */,
 				57FAD514238258FF00142A16 /* AppDelegate.swift in Sources */,
 				57FAD516238258FF00142A16 /* SceneDelegate.swift in Sources */,
 			);

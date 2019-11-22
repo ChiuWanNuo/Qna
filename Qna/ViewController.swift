@@ -7,12 +7,24 @@
 //
 
 import UIKit
+import AVFoundation
 
 class ViewController: UIViewController {
 
+    var looper: AVPlayerLooper?
+    
     override func viewDidLoad() {
+        
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        if let url = URL(string: "https://bit.ly/37vVtgD"){
+            let player = AVQueuePlayer()
+            let item = AVPlayerItem(url: url)
+            looper = AVPlayerLooper(player: player, templateItem: item)
+        
+            player.play()
+        
+        }
     }
 
 
